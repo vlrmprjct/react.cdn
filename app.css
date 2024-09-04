@@ -1,0 +1,17 @@
+:root {
+    --bg-primary: #58C4DC;
+    --text-primary: #FFFFFF;
+}
+
+body {
+    color: var(--text-primary);
+    background: var(--bg-primary);
+    font-family: Arial, sans-serif;
+    display: grid;
+    height: 90vh;
+    place-items: center;
+
+    main {
+        text-align: center;
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "react.cdn",
+    "version": "1.0.0",
+    "description": "React App using CDN",
+    "scripts": {
+        "start": "npx live-server"
+     },
+    "keywords": [
+        "React",
+        "CDN",
+        "Javascript"
+    ],
+    "author": "Thomas Meschke <mail@lokalnetz.com>",
+    "repository": "https://github.com/vlrmprjct/react.cdn",
+    "license": "MIT"
+}
