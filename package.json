@@ -1,10 +1,10 @@
 {
     "name": "react.cdn",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "React App using CDN",
     "scripts": {
         "start": "npx live-server"
-     },
+    },
     "keywords": [
         "React",
         "CDN",
