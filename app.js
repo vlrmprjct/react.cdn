@@ -1,4 +1,6 @@
-const App = () => {
+import { Component } from './component';
+
+export const App = () => {
     return (
         <>
             <h1>CDN React App </h1>

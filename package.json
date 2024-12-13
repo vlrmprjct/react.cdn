@@ -3,7 +3,10 @@
     "version": "1.0.1",
     "description": "React App using CDN",
     "scripts": {
-        "start": "npx live-server"
+        "start": "npm run transform -- --watch=forever --serve --servedir=dist --sourcemap",
+        "start:live": "npx concurrently 'npm run start' 'npx live-server dist'",
+        "build": "rm -rf dist/*.js dist/*.css && npm run transform -- --minify --analyze --metafile=dist/metafile.json",
+        "transform": "npx esbuild index.js app.css --bundle --outdir=dist --loader:.js=jsx --loader:.css=css"
     },
     "keywords": [
         "React",

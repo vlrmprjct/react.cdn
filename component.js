@@ -1,4 +1,4 @@
-const Component = ({ clock = false }) => {
+export const Component = ({ clock = false }) => {
 
     if (!clock) {
         return false;
